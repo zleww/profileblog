@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonders of the world</title>
+    <link rel="stylesheet" href="finals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="wow" src="worldwonder.png" alt="wow">
+          </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class="aboutcover">
+        <div class="me">
+          <img src="me.jpg" alt="cover">
+        </div>
+        <div class="aboutmetext">
+          ABOUT KIEL
+        </div>
+        <div class="aboutmedes">
+         just some interesting things bout me
+        </div>
+      </section>
+    </main>
+
+    <section>
+      <div class="aboutmeprofile">
+        <img class="profile" src="horse.jpg" alt="knight">
+        <p class="textdes">Well after you read my intro and the blog experience, you might have an idea about me lmao, especially swimming. I think the reason why I learned how to swim was because, most of the trip that we did was going to the beach if not, there's still a pool lol. Luckily I'm not allergic to any seafood, I'm just a picky eater when it comes to it. I don't eat mussels. </p>
+        <div class="collage">
+          <img class="red" src="red.png" alt="me in red">
+          <img class="bagiuome" src="bagiuo me.png" alt="me in bag">
+          <p class="textdes2">I'm really an adventurous guy, I'm curious and I want to explore more. I also like extreme rides like coasters hehe. Personally, I'm not the photogenic typa person, I just be enjoying the moment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="next">
+      <p class="where">where could be the next trip?</p>
+    </section>
+
+    <section>
+      <div class="imageselect">
+        <button class="arrow left" onclick="changeImage(-1)">&#8592;</button>
+        <div class="selected">
+            <img class="selecta" id="image" src="sagada.jpg" alt="sagada">
+        </div>
+        <button class="arrow right" onclick="changeImage(1)">&#8594;</button>
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-content">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/ezekiel.dellosa.30" target="_blank" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/zleww.5/" target="_blank" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@itsjustkie" target="_blank" title="TikTok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+          <p>Visit our <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+          <div class="copy">
+            <p>&copy; Ezekiel Dellosa Final Project 2024.</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
